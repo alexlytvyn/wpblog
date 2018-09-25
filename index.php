@@ -9,10 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
     <title>Blog Template for Bootstrap</title>
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/blog.css" rel="stylesheet">
+		<?php wp_head(); ?>
   </head>
 
   <body>
@@ -134,7 +131,6 @@
         <a href="#">Back to top</a>
       </p>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+		<?php wp_footer(); ?>
   </body>
 </html>
